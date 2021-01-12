@@ -9,6 +9,8 @@
     font-size: 14px;
 
     color: #333;
+
+    font-family: Arial, sans-serif;
 }
 
 /* NAVIGATION *********************/
@@ -17,8 +19,6 @@
     display: flex;
     width: 100%;
     height: 4rem;
-
-    border: 1px solid black;
     
     justify-content: flex-end;
     align-items: center;
@@ -28,6 +28,8 @@
     margin: 1.3rem .9rem;
     padding: .3rem;
 }
+
+.nav_link_text:hover { text-decoration: underline; }
 
 .avatar {
     width: 2.5rem;
@@ -44,3 +46,73 @@
 
 .img:hover { background-image: url('./img/dots.svg'); }
 
+/* MAIN *********************/
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 10rem;
+}
+
+/* form */
+
+form {
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#search {
+    width: 100%;
+    height: 3rem;
+    margin: 1.5rem;
+    padding: 0.2rem 4.2rem;
+
+    border: 1px solid #ddd;
+
+    border-radius: 30px;
+
+}
+
+.search {
+    padding: .8rem 1.1rem;
+    margin: .5rem;
+
+    border: none;
+    border-radius: 3px;
+
+    background: rgba(0, 0, 0, .03);
+}
+
+.search:hover {
+    box-shadow: 1px 1px 2px #ddd,
+                1px 1px 1px rgba(0, 0, 0, .1),
+                -1px -1px 1px rgba(0, 0, 0, .1);
+
+    cursor: pointer;
+}
+
+#search:hover { box-shadow: 2px 2px 4px #ddd, -2px -2px 5px #ddd; }
+
+input:focus { outline: none; }
+
+main > p {
+    margin: 2rem;
+}
+
+main > p > a {
+    color: blue;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER *********************/
