@@ -1,0 +1,1 @@
+The end product will be a google home page. By this I will demonstrate my knowledge of HTML&CSS and the ability to properly structure the page. Also, during the assignment I will hone my skills in positioning an element using flexbox.
